@@ -5,3 +5,5 @@ Submit your program by creating folder under particuler language like python or 
 File name should contain question no. and problem name
 
 Add problem statement and example input output as comment in you program.
+
+<>Note : Program should not be repeat plz check it first.
