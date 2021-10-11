@@ -1,6 +1,6 @@
 logindetails:
-    username: ['kanishk.sharma2021@vitstudent.ac.in'] #Your Username that you use in Teams
-    password: ['VIT.KANISHK2021'] #Password
+    username: ['username'] #Your Username that you use in Teams
+    password: ['password'] #Password
 
 monday:
   starttimings: ["08:00", "11:00", "14:00", "15:51"]
