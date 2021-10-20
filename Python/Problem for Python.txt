@@ -1,0 +1,440 @@
+1. Write a Python program to check if a given positive integer is a power of two. Go to the editor
+Input : 4
+Output : True
+ 
+
+2. Write a Python program to check if a given positive integer is a power of three. Go to the editor
+Input : 9
+Output : True
+ 
+
+3. Write a Python program to check if a given positive integer is a power of four. Go to the editor
+Input : 4
+Output : True
+ 
+
+4. Write a Python program to check if a number is a perfect square. Go to the editor
+Input : 9
+Output : True
+ 
+
+5. Write a Python program to check if an integer is the power of another integer.Go to the editor
+Input : 16, 2
+Output : True
+ 
+
+6. Write a Python program to check if a number is a power of a given base.Go to the editor
+Input : 128,2
+Output : True
+ 
+
+7. Write a Python program to find a missing number from a list. Go to the editor
+Input : [1,2,3,4,6,7,8]
+Output : 5
+ 
+
+8. Write a Python program to find missing numbers from a list. Go to the editor
+Input : [1,2,3,4,6,7,10]
+Output : [5, 8, 9]
+ 
+
+9. Write a Python program to find three numbers from an array such that the sum of three numbers equal to zero. Go to the editor
+Input : [-1,0,1,2,-1,-4]
+Output : [[-1, -1, 2], [-1, 0, 1]]
+Note : Find the unique triplets in the array.
+ 
+
+10. Write a Python program to find three numbers from an array such that the sum of three numbers equal to a given number.Go to the editor
+Input : [1, 0, -1, 0, -2, 2], 0)
+Output : [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
+ 
+
+11. Write a Python program to compute and return the square root of a given 'integer'. Go to the editor
+Input : 16
+Output : 4
+Note : The returned value will be an 'integer'
+ 
+
+12. Write a Python program to find the single number in a list that doesn't occur twice.Go to the editor
+Input : [5, 3, 4, 3, 4]
+Output : 5
+ 
+
+13. Write a Python program to find the single element in a list where every element appears three times except for one.Go to the editor
+Input : [5, 3, 4, 3, 5, 5, 3]
+Output : 4
+ 
+
+14. Write a Python program to find the single element appears once in a list where every element appears four times except for one. Go to the editor
+Input : [1, 1, 1, 2, 2, 2, 3]
+Output : 3
+ 
+
+15. Write a Python program to find two elements appear twice in a list where all the other elements appear exactly twice in the list. Go to the editor
+Input : [1, 2, 1, 3, 2, 5]
+Output :[5, 3]
+ 
+
+16. Write a Python program to add the digits of a positive integer repeatedly until the result has a single digit. Go to the editor
+Input : 48
+Output : 3
+For example given number is 59, the result will be 5.
+Step 1: 5 + 9 = 14
+Step 1: 1 + 4 = 5
+ 
+
+17. Write a Python program to find whether it contains an additive sequence or not. Go to the editor
+The additive sequence is a sequence of numbers where the sum of the first two numbers is equal to the third one.
+Sample additive sequence: 6, 6, 12, 18, 30
+In the above sequence 6 + 6 =12, 6 + 12 = 18, 12 + 18 = 30....
+Also, you can split a number into one or more digits to create an additive sequence.
+Sample additive sequence: 66121830
+In the above sequence 6 + 6 =12, 6 + 12 = 18, 12 + 18 = 30....
+Note : Numbers in the additive sequence cannot have leading zeros.
+ 
+
+18. Write a Python program to reverse the digits of an integer. Go to the editor
+Input : 234
+Input : -234
+Output: 432
+Output : -432
+ 
+
+19. Write a Python program to reverse the bits of an integer (32 bits unsigned). Go to the editor
+Input : 1234
+Output : 1260388352
+For example, 1234 represented in binary as 10011010010 and returns 1260388352 which represents in binary as 1001011001000000000000000000000.
+ 
+
+20. Write a Python program to check a sequence of numbers is an arithmetic progression or not. Go to the editor
+Input : [5, 7, 9, 11]
+Output : True
+In mathematics, an arithmetic progression or arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant.
+For example, the sequence 5, 7, 9, 11, 13, 15 ... is an arithmetic progression with common difference of 2.
+ 
+
+21. Write a Python program to check a sequence of numbers is a geometric progression or not. Go to the editor
+Input : [2, 6, 18, 54]
+Output : True
+In mathematics, a geometric progression or geometric sequence is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.
+For example, the sequence 2, 6, 18, 54, ... is a geometric progression with common ratio 3. Similarly, 10, 5, 2.5, 1.25, ... is a geometric sequence with common ratio 1/2.
+ 
+
+22. Write a Python program to compute the sum of the two reversed numbers and display the sum in reversed form. Go to the editor
+Input : 13, 14
+Output : 27
+Note : The result will not be unique for every number for example 31 is a reversed form of several numbers of 13, 130, 1300 etc. Therefore all the leading zeros will be omitted
+ 
+
+23. Write a Python program where you take any positive integer n, if n is even, divide it by 2 to get n / 2. If n is odd, multiply it by 3 and add 1 to obtain 3n + 1. Repeat the process until you reach 1. Go to the editor
+Input : 12
+Output : [12, 6.0, 3.0, 10.0, 5.0, 16.0, 8.0, 4.0, 2.0, 1.0]
+According to Wikipedia, the Collatz conjecture is a conjecture in mathematics named after Lothar Collatz, who first proposed it in 1937. The conjecture is also known as the 3n + 1 conjecture.
+The conjecture can be summarized as follows. Take any positive integer n. If n is even, divide it by 2 to get n / 2. If n is odd, multiply it by 3 and add 1 to obtain 3n + 1. Repeat the process (which has been called "Half Or Triple Plus One") indefinitely. The conjecture is that no matter what number you start with, you will always eventually reach 1.
+Example :
+For instance, starting with n = 12, one gets the sequence 12, 6, 3, 10, 5, 16, 8, 4, 2, 1.
+n = 19, for example, takes longer to reach 1: 19, 58, 29, 88, 44, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.
+ 
+
+24. Write a Python program to check whether a given number is an ugly number. Go to the editor
+Input : 12
+Output : True
+Ugly numbers are positive numbers whose only prime factors are 2, 3 or 5. The sequence 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, ...
+shows the first 10 ugly numbers.
+Note: 1 is typically treated as an ugly number
+ 
+
+25. Write a Python program to get the Hamming numbers upto a given numbers also check whether a given number is an Hamming number. Go to the editor
+Input : 7
+Output : 0
+Hamming numbers are numbers of the form
+H = 2i x 3j x 5k
+Where i, j, k = 0
+The sequence of Hamming numbers 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27. . . consists of all numbers of the form 2i.3j.5k where i, j and k are non-negative integers.
+ 
+
+26. Write a Python program to check if a given string is an anagram of another given string. Go to the editor
+Input : 'anagram','nagaram'
+Output : True
+According to Wikipedia an anagram is direct word switch or word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once; for example, the word anagram can be rearranged into nag-a-ram
+ 
+
+27. Write a Python program to push all zeros to the end of a list. Go to the editor
+Input : [0,2,3,4,6,7,10]
+Output : [2, 3, 4, 6, 7, 10, 0]
+ 
+
+28. Write a Python program to the push the first number to the end of a list. Go to the editor
+ 
+
+29. Write a Python program to find majority element in a list. Go to the editor
+Input : [1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 6]
+Output : 5
+Note: The majority element is the element that appears more than n/2 times where n is the number of elements in the list.
+ 
+
+30. Write a Python program to find the length of the last word. Go to the editor
+Input : Python Exercises
+Output : 9
+ 
+
+31. Write a Python program to add two binary numbers. Go to the editor
+Input : ('11', '1')
+Output : 100
+ 
+
+32. Write a Python program to find the single number which occurs odd numbers and other numbers occur even number. Go to the editor
+ 
+
+33. Write a Python program to compute the sum of all the multiples of 3 or 5 below 500. Go to the editor
+All the natural numbers below 12 that are multiples of 3 or 5, we get 3, 5, 6, 9 and 10. The sum of these multiples is 33.
+ 
+
+34. Write a Python program to compute the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed one million. Go to the editor
+Note: Fibonacci series is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+ 
+
+35. Write a Python program to find the largest prime factor of a given number. Go to the editor
+The prime factors of 330 are 2, 3, 5 and 11. Therefore 11 is the largest prime factor of 330.
+ 
+
+36. Write a Python program to find the largest palindrome made from the product of two 4-digit numbers. Go to the editor
+According Wikipedia - A palindromic number or numeral palindrome is a number that remains the same when its digits are reversed. Like 16461, for example, it is "symmetrical". The term palindromic is derived from palindrome, which refers to a word (such as rotor or racecar) whose spelling is unchanged when its letters are reversed. The first 30 palindromic numbers (in decimal) are: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202,...
+The largest palindrome made from the product of two 3-digit numbers is 913 * 993 = 906609.
+Note: 9999 * 9901 = 906609
+ 
+
+37. Write a Python program to find the smallest positive number that is evenly divisible by all of the numbers from 1 to 30. Go to the editor
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+Result: 2329089562800.0
+ 
+
+38. Write a python program to find the difference between the sum of the squares of the first two hundred natural numbers and the square of the sum. Go to the editor
+The sum of the squares of the first twenty natural numbers is,
+12+22+32+.....+202 = 2870
+The square of the sum of the first twenty natural numbers is,
+(1 + 2 + ... + 10)2 = 44100
+Hence the difference between the sum of the squares of the first twenty natural numbers and the square of the sum is 44100 - 2870 = 41230 Output: 401323300
+ 
+
+39. Write a python program to find the 1000th prime number. Go to the editor
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. By Euclid's theorem, there are an infinite number of prime numbers. Subsets of the prime numbers may be generated with various formulas for primes. The first twenty prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71.
+ 
+
+40. Write a Python program to find the product xyz. Go to the editor
+A Pythagorean triple consists of three positive integers a, b, and c, such that a2 + b2 = c2. Such a triple is commonly written (a, b, c), and a well-known example is (3, 4, 5). There exists exactly one Pythagorean triplet for which x + y + z = 1000.
+ 
+
+41. Write a Python program to find the first triangle number to have over n(given) divisors. Go to the editor
+From Wikipedia: A triangular number is a number that is the sum of all of the natural numbers up to a certain number. For example, 10 is a triangular number because 1 + 2 + 3 + 4 = 10. The first 25 triangular numbers are: 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 78, 91, 105, 120, 136, 153, 171, 190, 210, 231, 253, 276, 300, 325, and 351.
+A triangular number is calculated by the equation: n(n+1)/2
+The factors of the first five triangle numbers:
+1: 1
+3: 1, 3
+6: 1, 2, 3, 6
+10: 1, 2, 5, 10
+15: 1, 3, 5, 15
+In the above list 6 is the first triangle number to have over four divisors.
+ 
+
+42. Write a Python program to find the starting number, under ten thousand will create the longest chain. Go to the editor
+From Wikipedia - The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1.
+Python: Find the maximum total from top to bottom of the triangle below.
+ 
+
+43. Write a Python program to compute s the sum of the digits of the number 220. Go to the editor
+210 = 1024 and the sum of its digits is 1 + 0 + 2 + 4 = 7
+ 
+
+44. Write a Python program to find the maximum total from top to bottom of the triangle below. Go to the editor
+By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 25.
+Python: Find the maximum total from top to bottom of the triangle below.
+Write a Python program to find the maximum total from top to bottom of the triangle below.
+Python: Find the maximum total from top to bottom of the triangle below.
+ 
+
+45. Write a Python program to find the sum of the digits of a given number. Go to the editor
+In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. For example,
+5!= 5 x 4 x 3 x 2 x 1 = 120
+and the sum of the digits in the number 5! is 1 + 2 +0 = 3
+ 
+
+46. Write a Python program to compute the sum of all the amicable numbers under a given number. Go to the editor
+From Wikipedia - Amicable numbers are two different numbers so related that the sum of the proper divisors of each is equal to the other number. (A proper divisor of a number is a positive factor of that number other than the number itself. For example, the proper divisors of 6 are 1, 2, and 3.)
+The smallest pair of amicable numbers is (220, 284). They are amicable because the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, of which the sum is 284; and the proper divisors of 284 are 1, 2, 4, 71 and 142, of which the sum is 220.
+ 
+
+47. Write a Python program to find the sum of all the positive integers which cannot be written as the sum of two abundant numbers. Go to the editor
+In number theory, an abundant number is a number for which the sum of its proper divisors is greater than the number itself.
+Example:
+The first few abundant numbers are:
+12, 18, 20, 24, 30, 36, 40, 42, 48, 54, 56, 60, 66, 70, 72, 78, 80, 84, 88, 90, 96, 100, 102, ...
+The integer 12 is the first abundant number. Its proper divisors are 1, 2, 3, 4 and 6 for a total of 16.
+A number n is called deficient if the sum of its proper divisors is less than n and it is called abundant if this sum exceeds n.
+ 
+
+48. Write a Python program to find the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. Go to the editor
+In mathematics, permutation is the act of arranging the members of a set into a sequence or order, or, if the set is already ordered, rearranging (reordering) its elements?a process called permuting. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are: 012 021 102 120 201 210
+ 
+
+49. Write a Python program to find the index of the first term in the Fibonacci sequence to contain 500 digits. Go to the editor
+In mathematics, the Fibonacci numbers, commonly denoted Fn form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1
+The Fibonacci sequence is defined by the recurrence relation:
+Fn = Fn-1 + Fn-2, where F1 = 1 and F2 = 1.
+Hence the first 12 terms will be:
+F1 = 1
+F2 = 1
+F3 = 2
+F4 = 3
+F5 = 5
+F6 = 8
+F7 = 13
+F8 = 21
+F9 = 34
+F10 = 55
+F11 = 89
+F12 = 144
+The 12th term, F12, is the first term to contain three digits.
+ 
+
+50. Write a Python program that takes a string and encode it that the amount of symbols would be represented by integer and the symbol. Go to the editor
+For example, the string "AAAABBBCCDAAA" would be encoded as "4A3B2C1D3A"
+Sample Output:
+4A3B2C1D3A
+1P1H1P
+4A3B3C1D2A1B1D4A1C
+ 
+
+51. Write a Python program that takes a string of numbers and letters and return string which consists of letters. Go to the editor
+Sample Output:
+AAAABBBCCDAA
+AAAABBBCCDAAA
+PHP
+AAAABBBCCCDAABDAAAAC
+ 
+
+52. From Wikipedia, the free encyclopedia
+In computational linguistics and computer science, edit distance is a way of quantifying how dissimilar two strings (e.g., words) are to one another by counting the minimum number of operations required to transform one string into the other. Edit distances find applications in natural language processing, where automatic spelling correction can determine candidate corrections for a misspelled word by selecting words from a dictionary that have a low distance to the word in question. In bioinformatics, it can be used to quantify the similarity of DNA sequences, which can be viewed as strings of the letters A, C, G and T.
+This problem was asked by Google.
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between "kitten" and "sitting" is three: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
+Write a Python program to compute the edit distance between two given strings. Go to the editor
+Sample Output:
+3
+2
+ 
+
+53. Write a Python program to find equilibrium index from a given array. If there is no equilibrium index return 1. Go to the editor
+
+Sample Output:
+3
+-1
+ 
+
+54. Write a Python program to create a new array such that each element at index i of the new array is the product of all the numbers of a given array of integers except the one at i. Go to the editor
+Input: [10, 20, 30, 40, 50]
+Output: [1200000, 600000, 400000, 300000, 240000]
+Input: [1, 2, 0, 4]
+Output: [0, 0, 8, 0]
+Sample Output:
+[1200000, 600000, 400000, 300000, 240000]
+[0, 0, 8, 0]
+[-24, -12, -8, 6]
+ 
+
+55. Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport.
+Write a Python program to compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary. Go to the editor
+For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'),
+('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
+Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
+Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')]
+and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C']
+even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+Sample Output:
+['YUL', 'YYZ', 'SFO', 'HKO', 'ORD']
+not valid intinerary
+['A', 'C', 'A', 'B', 'C']
+ 
+
+56. Write a Python program to print a truth table for an infix logical expression. Go to the editor
+Sample Output:
+A B and(A,B) True True True True False False False True False False False False ....... A B not(A imp B) True True False True False True False True False False False False
+ 
+
+57. Write a Python program to generate list with 'width'-bit gray code. Go to the editor
+Sample Output:
+['00', '01', '11', '10']
+['000', '001', '011', '010', '110', '111', '101', '100']
+['0000', '0001', '0011', '0010', '0110', '0111', '0101', '0100', '1100', '1101', '1111', '1110', '1010', '1011', '1001', '1000']
+ 
+
+58. Write a Python program to get a dictionary mapping keys to huffman codes for a frequency table mapping keys to frequencies. Go to the editor
+Sample Output:
+[('a', '0'), ('b', '101'), ('c', '100'), ('d', '111'), ('e', '1101'), ('f', '1100')]
+ 
+
+59. Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
+21
+22
+23
+24
+25
+20
+7
+8
+9
+10
+19
+6
+1
+2
+11
+18
+5
+4
+3
+12
+17
+16
+15
+14
+13
+
+Diagonals Numbers: 21 + 7 + 1 + 3 + 13 + 25 + 9 + 5 + 17 = 101
+It can be verified that the sum of the numbers on the diagonals is 101.
+Write a Python program to compute the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the above way. Go to the editor
+Sample Output:
+669171001
+ 
+60. Consider all integer combinations of ab for 2 = a = 5 and 2 = b = 5:
+22=4, 23=8, 24=16, 25=32
+32=9, 33=27, 34=81, 35=243
+42=16, 43=64, 44=256, 45=1024
+52=25, 53=125, 54=625, 55=3125
+If they are then placed in numerical order, with any repeats removed, we get the following sequence of 15 distinct terms:
+4, 8, 9, 16, 25, 27, 32, 64, 81, 125, 243, 256, 625, 1024, 3125
+Write a Python program to get number of distinct terms generated by ab for 2 = a = 21 and 2 = b = 21. Also print all the distinct numbers. Go to the editor
+Sample Output:
+Number of distinct elements: 324
+Distinct elements are:
+{512, 1024, 2048, 4096, 4, 8192, 32768, 65536, 8, 131072, 262144, ....... , 302875106592253}
+ 
+
+61. Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:
+1634 = 14 + 64 + 34 + 44
+8208 = 84 + 24 + 04 + 84
+9474 = 94 + 44 + 74 + 44
+As 1 = 14 is not a sum it is not included.
+The sum of these numbers is 1634 + 8208 + 9474 = 19316.
+Write a Python program to find the sum of all the numbers that can be written as the sum of fifth powers of their digits. Go to the editor
+Sample Output:
+Sum of all the numbers that can be written as the sum of fifth powers of their digits:
+443839
+ 
+
+62. In the United Kingdom the currency is made up of pound (£) and pence (p). There are eight coins in general circulation:
+1p, 2p, 5p, 10p, 20p, 50p, £1 (100p), and £2 (200p).
+It is possible to make £2 in the following way:
+1x£1 + 1x50p + 2x20p + 1x5p + 1x2p + 3x1p
+Write a Python program to find different ways where £2 be made using any number of coins. Go to the editor
+Sample Output:
+73682
